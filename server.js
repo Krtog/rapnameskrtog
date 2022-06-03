@@ -1,3 +1,5 @@
+//this is only an API and no client JS has been built
+
 const express = require('express')
 const app = express()
 const cors = require('cors')
