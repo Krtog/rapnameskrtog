@@ -46,7 +46,7 @@ app.get('/api:name', (request, response)=>{
 })
 
 
-app.listen(PORT, ()=>{  //setup to listen on the PORT 
+app.listen(process.env.PORT || PORT, ()=>{  //setup to listen on the PORT 
     console.log(`The server is now running on port ${PORT}! Betta GO Catch It!`)
 })
 
