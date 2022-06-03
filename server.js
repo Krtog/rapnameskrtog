@@ -2,7 +2,6 @@
 //only building api to server information
 //we creatd on html file to tell the users how to use the API
 
-const { application } = require('express')
 const express = require('express')
 const app = express() //app can use all methods used by express
 const cors = require('cors')
@@ -17,14 +16,14 @@ const rappers = {
         'birthName': 'Sheyaa Bin Abraham-Joseph',
         'birthLocation': 'London, England'
 
-},
+    },
 
     'chance the rapper': {
         'age': 29,
         'birthName': 'Chancellor Bennett',
         'birthLocation': 'Chicago, Illinois'
 
-},
+    },
 
     'unknown': {
         'age': 0,
