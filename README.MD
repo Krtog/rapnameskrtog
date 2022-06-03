@@ -3,7 +3,7 @@ This is an API that provides rappers birth name, birth location and age. This AP
 
 **Link to project:** https://rapper-api-krtog.herokuapp.com/api/
 
-(https://imgur.com/fB4gNqy.png)
+https://imgur.com/fB4gNqy.png
 
 ## How It's Made:
 
