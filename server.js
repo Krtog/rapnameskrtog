@@ -5,7 +5,11 @@
 const { application } = require('express')
 const express = require('express')
 const app = express() //app can use all methods used by express
+const cors = require('cors')
 const PORT = 8000
+
+
+app.use(cors())
 
 const rappers = {
     '21 savage': {
